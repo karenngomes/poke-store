@@ -1,11 +1,17 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+import { Switch, Route, BrowserRouter } from "react-router-dom";
+
+import Home from "./pages/Home";
+import Cart from "./pages/Cart";
 
 function App() {
   return (
-    <div>
-      Hello, World! <Button>Test</Button>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/cart" component={Cart} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
