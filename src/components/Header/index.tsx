@@ -17,7 +17,7 @@ function Header() {
         <Nav>
           <Nav.Link>
             <Link to="/cart">
-              <InlineIcon icon={shoppingCart} /> Carrinho
+              <InlineIcon icon={shoppingCart} /> Cart
             </Link>
           </Nav.Link>
         </Nav>
