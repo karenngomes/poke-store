@@ -1,6 +1,8 @@
 # A Pokémon Store using PokéAPI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and available on [https://poke-store.netlify.app/](https://poke-store.netlify.app/).
+
+Used API: [https://pokeapi.co/](https://pokeapi.co/).
 
 ## Available Scripts
 
