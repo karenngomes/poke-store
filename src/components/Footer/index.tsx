@@ -36,7 +36,11 @@ function FooterContainer() {
         <Col className="social-networks">
           <ul className="list-unstyled text-small">
             <li>
-              <a href="https://github.com/karenngomes/" target="_blank">
+              <a
+                href="https://github.com/karenngomes/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <InlineIcon icon={githubSquare} />
               </a>
             </li>
