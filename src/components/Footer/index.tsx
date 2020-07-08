@@ -24,18 +24,13 @@ function FooterContainer() {
           <p className="text-muted">
             © 2020 Karen Gomes, Inc. All rights reserved. <br />
             See the{" "}
-            <a href="https://github.com/karenngomes/poke-store" target="_blank">
+            <a
+              href="https://github.com/karenngomes/poke-store"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <InlineIcon icon={codeIcon} />
             </a>
-            {/* <br>
-              See the{" "}
-              <a
-                href="https://github.com/karenngomes/airbngama"
-                target="_blank"
-              >
-                <i className="fa fa-code"></i>
-              </a>
-            </br> */}
           </p>
         </Col>
         <Col className="social-networks">
@@ -49,12 +44,17 @@ function FooterContainer() {
               <a
                 href="https://www.linkedin.com/in/karenngomes/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <InlineIcon icon={linkedinSquare} />
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/gomesskaren/" target="_blank">
+              <a
+                href="https://twitter.com/gomesskaren/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <InlineIcon icon={twitterSquare} />
               </a>
             </li>
