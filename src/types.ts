@@ -7,8 +7,3 @@ export type Pokemon = {
   price?: number;
   counter_shop?: number;
 };
-
-export type Store = {
-  totalPrice: { get: number; set: object };
-  pokemonShop: { get?: Pokemon[]; set: object };
-};
